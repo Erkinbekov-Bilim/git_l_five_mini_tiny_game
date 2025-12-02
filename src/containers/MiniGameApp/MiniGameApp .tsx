@@ -35,7 +35,7 @@ const MiniGameApp = () => {
     setCells(generateCells());
   };
 
-  const isClickedOnCell = (index: number) => {
+  const isClickedOnCell = (index: number): ICell[] | void => {
     if (win) {
       return alert('Reset the field!');
     }
