@@ -1,0 +1,21 @@
+.reset-playingField {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 22px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 26px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.reset-playingField:hover {
+  background: rgb(79, 35, 129);
+  color: white;
+}
+
+.reset-playingField:active {
+  background: inherit;
+  border-color: rgb(79, 35, 129);
+  color: rgb(79, 35, 129);
+}

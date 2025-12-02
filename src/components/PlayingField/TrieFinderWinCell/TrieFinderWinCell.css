@@ -1,0 +1,11 @@
+.tries {
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 22px;
+  border: 1px solid rgb(56, 29, 94);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 26px;
+  font-weight: 600;
+  color: rgb(56, 29, 94);
+}

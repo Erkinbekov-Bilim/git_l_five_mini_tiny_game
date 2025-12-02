@@ -1,0 +1,9 @@
+.cells {
+  width: 515px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 20px;
+}

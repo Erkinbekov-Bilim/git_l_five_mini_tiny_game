@@ -1,0 +1,40 @@
+.cell,
+.cell-none,
+.cell-win {
+  cursor: pointer;
+  width: 70px;
+  height: 70px;
+  background: rgb(140, 128, 177);
+  border: 1px solid black;
+  transition: all 0.2s ease;
+}
+
+.cell:hover {
+  background: rgb(87, 78, 117);
+}
+
+.cell-none {
+  opacity: 0;
+  cursor: default;
+}
+
+.cell-win {
+  cursor: default;
+  border: none;
+  position: relative;
+  background-color: white;
+}
+
+.cell-win::before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: '';
+  width: 30px;
+  height: 30px;
+  background-image: url('../../../assets/icons/ic-crown.svg');
+  background-size: 30px 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
