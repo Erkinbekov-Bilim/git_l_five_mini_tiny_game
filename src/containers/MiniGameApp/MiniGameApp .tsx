@@ -29,7 +29,7 @@ const MiniGameApp = () => {
   const [tries, setTries] = useState<number>(0);
   const [win, setWin] = useState<boolean>(false);
 
-  const resetTheField = () => {
+  const resetTheField = (): void => {
     setWin(false);
     setTries(0);
     setCells(generateCells());
